@@ -1,0 +1,12 @@
+                                   precision    recall  f1-score   support
+
+Chrysanthemum_Bacterial_Leaf_Spot     0.9867    0.9610    0.9737        77
+            Chrysanthemum_Healthy     0.9872    1.0000    0.9935        77
+ Chrysanthemum_Septoria_Leaf_Spot     0.6909    0.9870    0.8128        77
+                  Jasmine_Healthy     0.9677    1.0000    0.9836       600
+                 Jasmine_Multiple     1.0000    0.9133    0.9547       600
+                     Jasmine_Rust     1.0000    1.0000    1.0000       600
+
+                         accuracy                         0.9724      2031
+                        macro avg     0.9387    0.9769    0.9531      2031
+                     weighted avg     0.9778    0.9724    0.9734      2031
