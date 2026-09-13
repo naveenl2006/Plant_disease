@@ -1,0 +1,38 @@
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Model checkpoints (large binary files) ───────────────────────────────────
+checkpoints/*.pth
+checkpoints/*.pt
+
+# ── Results (regenerated on every run) ───────────────────────────────────────
+results/*.png
+results/*.txt
+results/*.json
+
+# ── Dataset (too large for git) ───────────────────────────────────────────────
+dataset_flat_structure/
+
+# ── Environment secrets ───────────────────────────────────────────────────────
+.env
+
+# ── OS / editor junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
